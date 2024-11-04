@@ -1,0 +1,475 @@
+	
+	@font-face{
+		font-family:'Railway';
+		src:url(../font/Railway.otf)     
+		format('OpenType');
+		font-style:normal;
+	}
+
+	*{
+		box-sizing: inherit;
+		margin:0;
+    
+	}   
+
+	img {
+		max-width:100%;
+		min-width:10%;
+		height:auto;
+	}
+		
+	body {
+		background-color:rgb(239,239,239);
+	}
+	
+
+	.Hero {
+		max-width:100%;
+		height:auto;
+		background-image:url('../asset/img/Flaticon reviews uc .webp');
+		background-attachment:fixed;
+		background-repeat:repeat;
+		background-size:100px;
+		
+	}
+	
+	.Hero > div {
+	    display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		max-width:100%;
+		height:450px;
+		background-color:rgb(23,64,130);
+		opacity:0.8;
+	}
+	.Hero h1{
+		font-family:Railway;
+		font-size:100px;
+		font-weight: bold;
+		color:white;
+	}
+	.Hero h1:hover{
+		font-family:Railway;
+		font-size:120px;
+		font-weight: bold;
+		color:rgb(28,136,255);
+	}
+	
+	.Hero h3{
+		font-family:Railway;
+		font-size:50px;
+		font-weight: normal;
+		color:white;
+		padding:2px;
+	}	
+	.servicios {
+		display:flex;
+		flex-direction:row;
+		max-width:100%;
+		height:350px;
+		padding:40px;
+	}
+	 .servicios > .elemento1{
+		flex-basis:25%;
+		flex-grow:1;
+		box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+		border-radius:25px;
+		align-items:center;
+		height:300px;
+		margin:10px;
+		
+
+		
+	 }
+	 .elemento1 img {
+		 max-width:30%;
+		 padding:0px 0px 5px 0px;
+		 position:relative;
+		 top:75px;
+		 bottom:75px;
+		 left:30%;
+		 right:20%;
+		}
+	 .elemento1 h2 {
+		font-family:Railway;
+		font-size:20px;
+		font-weight: bold;
+		color:rgb(28,136,255);
+		text-align:center;
+		position:relative;
+		top:75px;
+		bottom:75px;
+		}
+	.elemento1 p {
+		font-family:Railway;
+		font-size:16px;
+		font-weight: normal;
+		color:black;
+		text-align:left;
+		padding:5px 20px 0px 20px;
+		position:relative;
+		top:75px;
+		bottom:75px;
+		}
+	.servicios > .elemento2{
+		flex-basis:25%;
+		flex-grow:2;
+		border-radius:25px;
+		height:300px;
+		align-items:center;
+		margin:10px;
+	 }
+	 .elemento2 img {
+		 max-width:30%;
+		 padding:0px 0px 5px 0px;
+		 position:relative;
+		 top:75px;
+		 bottom:75px;
+		 left:30%;
+		 right:20%;
+		}
+	 .elemento2 h2 {
+		font-family:Railway;
+		font-size:20px;
+		font-weight: bold;
+		color:rgb(28,136,255);
+		text-align:center;
+		position:relative;
+		top:75px;
+		bottom:75px;
+		}
+	.elemento2 p {
+		font-family:Railway;
+		font-size:16px;
+		font-weight: normal;
+		color:black;
+		text-align:left;
+		position:relative;
+		padding:5px 20px 0px 20px;
+		top:75px;
+		bottom:75px;
+		}
+	.servicios > .elemento3{
+		flex-basis:25%;
+		flex-grow:3;
+		box-shadow: -10px -10px 20px rgba(0,0,0,0.2);
+		border-radius:25px;
+		height:300px;
+		align-items:center;
+		margin:10px;
+		
+	 }
+	 .elemento3 img {
+		 max-width:30%;
+		 padding:0px 0px 5px 0px;
+		 position:relative;
+		 top:75px;
+		 bottom:75px;
+		 left:30%;
+		 right:20%;
+		}
+	 .elemento3 h2 {
+		font-family:Railway;
+		font-size:20px;
+		font-weight: bold;
+		color:rgb(28,136,255);
+		text-align:center;
+		position:relative;
+		top:75px;
+		bottom:75px;
+		}
+	.elemento3 p {
+		font-family:Railway;
+		font-size:16px;
+		font-weight: normal;
+		color:black;
+		text-align:left;
+		padding:5px 20px 0px 20px;
+		position:relative;
+		top:75px;
+	    bottom:75px;
+		}
+	
+	.datos{
+		display:flex;
+		flex-direction:row;
+		max-width:100%;
+		height:200px;
+		justify-content:space-between;
+		align-items:center;
+		padding:40px;
+		background-color:rgba(23,64,130,0.9);
+		max-width:100%;
+		height:auto;
+		background-image:url('../asset/img/Flaticon reviews uc .webp');
+		background-attachment:fixed;
+		background-repeat:repeat;
+		background-size:100px;
+		box-shadow: 20px 0px 20px rgba(0,0,0,0.2);
+	
+	}
+	
+	.datos > .caja1 {
+		background-color: rgba(233,233,233,0.9);
+		width:30%;
+		height:100px;
+		border-radius:25px;
+		box-shadow: 10px -10px 20px rgba(0,0,0,0.5);
+		padding:20px;
+		margin:20px;
+		
+	}
+	.caja1 h3{
+		
+		font-family:Railway;
+		font-size:30px;
+		font-weight:bold;
+		color:rgb(28,136,255);
+		text-align:center;
+		position:relative;
+		top:25px;
+		bottom:25px;
+	}
+	.caja1 p{
+		
+		font-family:Railway;
+		font-size:16px;
+		font-weight:normal;
+		color:black;
+		text-align:center;
+		position:relative;
+		top:25px;
+		bottom:25px;
+	}	
+	
+	.datos > .caja2 {
+		background-color: rgba(233,233,233,0.9);
+		width:30%;
+		height:100px;
+		border-radius:25px;
+		box-shadow: 10px -10px 20px rgba(0,0,0,0.5);
+		padding:20px;
+		margin:20px;
+		
+	}
+	.caja2 h3{
+		
+		font-family:Railway;
+		font-size:30px;
+		font-weight:bold;
+		color:rgb(28,136,255);
+		text-align:center;
+		position:relative;
+		top:25px;
+		bottom:25px;
+	}
+	.caja2 p{
+		
+		font-family:Railway;
+		font-size:16px;
+		font-weight:normal;
+		color:black;
+		text-align:center;
+		position:relative;
+		top:25px;
+		bottom:25px;
+	}	
+	
+	.datos > .caja1 {
+		background-color: rgba(233,233,233,0.9);
+		width:30%;
+		height:100px;
+		border-radius:25px;
+		box-shadow: 10px -10px 20px rgba(0,0,0,0.5);
+		padding:20px;
+		margin:20px;
+		
+	}
+	.caja1 h3{
+		
+		font-family:Railway;
+		font-size:30px;
+		font-weight:bold;
+		color:rgb(28,136,255);
+		text-align:center;
+		position:relative;
+		top:25px;
+		bottom:25px;
+	}
+	.caja1 p{
+		
+		font-family:Railway;
+		font-size:16px;
+		font-weight:normal;
+		color:black;
+		text-align:center;
+		position:relative;
+		top:25px;
+		bottom:25px;
+	}	
+	
+	.datos > .caja3 {
+		background-color: rgba(233,233,233,0.9);
+		width:30%;
+		height:100px;
+		border-radius:25px;
+		box-shadow: 10px -10px 20px rgba(0,0,0,0.5);
+		padding:20px;
+		margin:20px;
+		
+	}
+	.caja3 h3{
+		
+		font-family:Railway;
+		font-size:30px;
+		font-weight:bold;
+		color:rgb(28,136,255);
+		text-align:center;
+		position:relative;
+		top:25px;
+		bottom:25px;
+	}
+	.caja3 p{
+		
+		font-family:Railway;
+		font-size:16px;
+		font-weight:normal;
+		color:black;
+		text-align:center;
+		position:relative;
+		top:25px;
+		bottom:25px;
+	}	
+	
+	.tablero{
+		display:grid;
+		grid-template-columns:1fr 2fr 1fr ;
+		grid-template-rows:auto;
+		gap:20px;
+		padding:20px;
+		background-color:rgb(23,64,130);
+		align-items:center;
+	}
+	
+	.tablero > .grilla1{
+		margin:10px;
+	}
+	.grilla1 img {
+		width:40%;
+		height:auto;
+	}
+	.grilla1 img:hover {
+		transform:scale(0.9);
+	}
+	.grilla1 h4 {
+		font-family:Railway;
+		font-size:15px;
+		font-weight:normal;
+		color:white;
+		text-align:left;
+	}
+	.grilla1 h3 {
+		font-family:Railway;
+		font-size:15px;
+		font-weight:bold;
+		color:rgb(28,136,255);
+		text-align:left;
+	}
+	.grilla1 p {
+		font-family:Railway;
+		font-size:12px;
+		font-weight:normal;
+		color:white;
+		text-align:left;
+		padding:5px 0px 10px 0px;
+	}
+	.tablero > .grilla2{
+		margin:10px;
+	}
+	.grilla2 img {
+		width:100%;
+		height:auto;
+		border-radius:25px;
+	}
+	.grilla2 img:hover {
+		transform:scale(0.9);
+	}	
+	.tablero > .grilla4{
+		margin:10px;
+	}
+	.grilla4 img {
+		width:40%;
+		height:auto;
+	}
+	.grilla4 img:hover {
+		transform:scale(0.9);
+	}
+	.grilla4 h4 {
+		font-family:Railway;
+		font-size:15px;
+		font-weight:normal;
+		color:white;
+		text-align:left;
+	}
+	.grilla4 h3 {
+		font-family:Railway;
+		font-size:15px;
+		font-weight:bold;
+		color:rgb(28,136,255);
+		text-align:left;
+	}
+	.grilla4 p {
+		font-family:Railway;
+		font-size:12px;
+		font-weight:normal;
+		color:white;
+		text-align:left;
+		padding:5px 0px 10px 0px;
+	}
+	.Hero2{
+	max-width:100%;
+		background-image:url('../asset/img/revisar-aumentar-calificacion-o-clasificacion-evaluacion-concepto-clasificacion-empresario-dibujar-cinco-estrella-amarilla-aumentar-calificacion-su-empresa.webp');
+		background-attachment:fixed;
+		background-size:content;
+		background-position:top;
+	}
+	.Hero2> div {
+	    display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		max-width:100%;
+		height:400px;
+		background-color:rgba(0,0,0,0.7);
+	}
+	.Hero2 h2{
+		font-family:Railway;
+		font-size:40px;
+		font-weight: bold;
+		color:white;
+		text-align:center;
+	}
+	.Hero2 h2:hover{
+		font-family:Railway;
+		font-size:50px;
+	}
+	
+	.Hero2 button{
+		font-family:Railway;
+		font-size:18px;
+		font-weight: bold;
+		color:rgb(28,136,255);
+		text-align:center;
+		background-color:white;
+		border-radius:20px;
+		padding:5px 50px 5px 50px;
+	}
+	.Hero2 button:hover{
+		color:white;
+		text-align:center;
+		background-color:rgb(28,136,255);
+		border-radius:20px;
+	}
+	
+	
